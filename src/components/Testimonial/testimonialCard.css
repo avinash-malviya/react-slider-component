@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+#main-heading {
+  color: rgba(34, 34, 48, 1);
+  margin-bottom: 1.5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7em;
+}
+p {
+  margin-bottom: 1.5%;
+  color: rgb(70, 66, 66, 0.9);
+  letter-spacing: 0.2px;
+  font-family: "Roboto", sans-serif;
+}
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  font-size: small;
+}
+.user {
+  font-weight: 800;
+  color: black;
+  letter-spacing: -0.5px;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  white-space: nowrap;
+  text-decoration: none;
+  color: rgb(6, 91, 202);
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+#other-details {
+  color: rgb(70, 66, 66, 0.9);
+  letter-spacing: -0.5px;
+  font-family: "Roboto", sans-serif;
+}
